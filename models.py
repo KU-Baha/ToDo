@@ -36,7 +36,7 @@ class TodoItem:
     def task(self, task):
         self.__task = task
 
-    def done(self):
+    def check(self):
         if self.__is_done:
             self.__is_done = False
         else:
