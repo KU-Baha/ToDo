@@ -4,12 +4,15 @@ class Todo:
 
     def add_todo(self, item):
         if not isinstance(item, TodoItem):
-            return
-        self.todo_items.append(item)
+
+            self.todo_items.append(item)
+        return item
+
 
     def list_items(self):
         for i, v in enumerate(self.todo_items):
             print(f"{i}. {v} - {v.is_done}")
+
 
     def find(self, word):
         find_item = []
@@ -17,6 +20,9 @@ class Todo:
             if word in item.task:
                 find_item.append((i, item))
         return find_item
+
+
+
 
 
 class TodoItem:

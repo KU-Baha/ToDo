@@ -1,0 +1,14 @@
+111adsdfsdf 1 --- choose 1 --- dsfsdfsdf
+ 1 --- dsfsdfsdf
+ 2 --- []
+ 1 --- dsasdasd
+ 1 --- asd
+ 2 --- []
+ 1 --- add_todo----asd
+ 1 --- add_todo----<class 'models.TodoItem'>
+ 1 --- add_todo----<class 'models.TodoItem'>
+ 1 --- add_todo----<class 'models.TodoItem'>
+ 1 --- add_todo----פûגאûגאûא
+ 1 --- add_todo----asgasfdg
+ 2 --- find----[]
+ 3 --- list_items----None
